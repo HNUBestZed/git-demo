@@ -1,1 +1,4 @@
 在基于master创建了merge_test和rebase_test分支后创建了此文件
+
+观察结果是：merge会在目标分支上添加一个新的commit来添加合并的内容，原分支不变
+            rebase是如果目标分支上有新的提交的话会先把新提交的commit拿开，把原分支的commit加上去，最后在把目标分支的新提交的commit加上
